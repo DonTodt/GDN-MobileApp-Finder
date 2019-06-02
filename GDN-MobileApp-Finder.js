@@ -16,20 +16,6 @@ var report = AdWordsApp.report("SELECT Url " +
   
   var matchword = "mobileapp";
   var rows = report.rows();
-/*
-  while (rows.hasNext()) {
-    var row = rows.next();
-    var placement = row['Url'];   
-
-    if (match.indexOf(match[i][0]) != -1)
-    
-    var row = rows.next();
-    
-    sheet.appendRow([row['Url'],row['Domain'],row['Impressions'], row['AdNetworkType1'], row['AdNetworkType1']]);
-  } 
-  
-}
-*/
   var i = 0
   while (rows.hasNext()) {
     //Variable, in welcher die naechste Zeile gespeichert wird:
